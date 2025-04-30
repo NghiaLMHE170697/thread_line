@@ -40,17 +40,28 @@ app.use(
         origin: function (origin, callback) {
             const allowedOrigins = [
                 process.env.CLIENT_URL,
-                'https://threadline-drab.vercel.app/'
+                'https://threadline-drab.vercel.app'
             ];
-            if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+            
+            // Allow requests with no origin (like mobile apps or curl requests)
+            if (!origin) {
+                return callback(null, true);
+            }
+
+            // Normalize URLs by removing trailing slashes
+            const normalizedOrigin = origin.replace(/\/$/, '');
+            const normalizedAllowedOrigins = allowedOrigins.map(url => url.replace(/\/$/, ''));
+
+            if (normalizedAllowedOrigins.includes(normalizedOrigin)) {
                 callback(null, true);
             } else {
+                console.log('CORS blocked for origin:', origin);
                 callback(new Error('Not allowed by CORS'));
             }
         },
-        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-        allowedHeaders: ["Content-Type", "Authorization"],
-        credentials: true
+        credentials: true,
+        methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+        allowedHeaders: ['Content-Type', 'Authorization']
     })
 );
 app.use(express.json());
