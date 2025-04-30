@@ -28,27 +28,17 @@ const Footer = () => {
     }
   };
   return (
-    <div style={{backgroundColor: "#302f2f"}} className="w-full py-20">
+    <div style={{ backgroundColor: "#302f2f" }} className="w-full py-20">
       <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-2 gap-10">
         <div className="col-span-2">
-          <FooterListTitle   title=" Thông tin về THREADLINE" />
+          <FooterListTitle title=" Thông tin về THREADLINE" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%] text-white">
               Chúng tôi đặt chữ tín lên hàng đầu, khách vừa lòng mới làm, khách không vừa ý không buông
             </p>
             <ul className="flex items-center gap-2">
-
               <a
-                href="https://www.tiktok.com/@magicpaper1720?is_from_webapp=1&sender_device=pc"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaTiktok />
-                </li>
-              </a>
-              <a
-                href="https://www.facebook.com/profile.php?id=61565637313680"
+                href="https://www.facebook.com/profile.php?id=61576067720545"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,7 +47,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://maps.app.goo.gl/iEzKRb3e9Y13NAxB8"
+                href="https://maps.app.goo.gl/ABLVJL1AQKwm2akW9"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -90,13 +80,13 @@ const Footer = () => {
           <FooterListTitle title="Tư vấn đặt hàng " />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Điện thoại: 0867795405
+              Điện thoại: 0242071387
             </li>
             <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Zalo: 0867795405
+              Zalo: 0242071387
             </li>
             <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Địa chỉ: Thạch Thất, Hoà Lạc, Hà Nội
+              Địa chỉ: 107A Đ. Nguyễn Phong Sắc, Dịch Vọng Hậu, Cầu Giấy, Hà Nội
             </li>
 
           </ul>

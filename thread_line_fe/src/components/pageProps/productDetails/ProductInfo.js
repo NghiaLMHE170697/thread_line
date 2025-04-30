@@ -76,7 +76,7 @@ const ProductInfo = ({ productInfo = {} }) => {
       {/* Contact Button */}
       <div className="mt-auto">
         <a
-          href="http://m.me/61565637313680"
+          href="http://m.me/657307377459288"
           className="w-full flex items-center justify-center gap-2 bg-pink-500 hover:bg-pink-600 text-white py-4 px-6 rounded-lg font-semibold transition-colors duration-200"
         >
           <img src={messengerIcon} alt="Messenger" className="w-6 h-6" />
