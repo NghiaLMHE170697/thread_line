@@ -30,6 +30,16 @@ Hãy trả lời ngắn gọn. Luôn cung cấp câu trả lời súc tích, kh�
 // Hàm xử lý chat với Gemini
 exports.getGeminiResponse = async (req, res) => {
     try {
+        // Set security headers
+        res.set({
+            'Content-Security-Policy': "default-src 'self'",
+            'X-Content-Type-Options': 'nosniff',
+            'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+            'X-Frame-Options': 'DENY',
+            'Referrer-Policy': 'strict-origin-when-cross-origin',
+            'Permissions-Policy': 'geolocation=(), microphone=(), camera=()'
+        });
+
         const { message } = req.body;
 
         if (!message) {
