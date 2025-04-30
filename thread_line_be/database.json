@@ -1,0 +1,464 @@
+{
+    "categories": [
+        {
+            "_id": 1,
+            "name": "Áo Sơ Mi"
+        },
+        {
+            "_id": 2,
+            "name": "Áo Polo"
+        },
+        {
+            "_id": 3,
+            "name": "Áo Phông"
+        },
+        {
+            "_id": 4,
+            "name": "Quần Bò"
+        },
+        {
+            "_id": 5,
+            "name": "Quần Đùi"
+        }
+    ],
+    "products": [
+        {
+            "_id": 1,
+            "name": "ÁO SƠ MI KẺ CA RÔ CÓ TÚI",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-ke-ca-ro-co-tui-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-ke-ca-ro-co-tui-2.jpg"
+            ],
+            "description":"Áo sơ mi vải cotton, dáng relaxed fit. Cổ ve lật, dài tay, cổ tay bo và cài khuy. Có một túi đáp trước ngực. Cài phía trước bằng hàng khuy cài.",
+            "material": "100% vải cotton.",
+            "care_instructions": "Giặt ở nhiệt độ tối đa 30°C, vắt ở tốc độ thấp. Không sử dụng nước xả / Ủi ở nhiệt độ thấp. Giặt ở nhiệt độ tối đa 110°C. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 2,
+            "name": "ÁO SƠ MI VẢI SEERSUCKER HỌA TIẾT NỔI",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-seersucker-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-seersucker-2.jpg"
+            ],
+            "description": "Áo sơ mi dáng relaxed fit. Cổ ve lật, cộc tay. Có một túi đáp trước ngực. Gấu áo điều chỉnh bằng dây rút co giãn ở hai bên. Cài phía trước bằng hàng khuy cài.",
+            "material": "100% vải pôliexte.",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Giặt khô với tetrachloroethylene. Có thể sử dụng máy sấy ở nhiệt độ thấp.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 3,
+            "name": "ÁO SƠ MI VẢI PHA SỢI VISCOSE HỌA TIẾT KẺ",
+            "price": "1.799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-viscose-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-viscose-2.jpg"
+            ],
+            "description": "Áo sơ mi vải pha sợi viscose, dáng relaxed fit. Cổ ve lật, dài tay, cổ tay bo và cài khuy. Có một túi đáp trước ngực. Cài phía trước bằng hàng khuy cài.",
+            "material": "85% vải thun vitcô, 15% vải poliamit",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 40ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Chỉ giặt khô chỉ với các tinh chất khoáng. Có thể sử dụng máy sấy ở nhiệt độ thấp.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 4,
+            "name": "ÁO SƠ MI VẢI RŨ BÓNG IN HỌA TIẾT",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-vai-ru-bong-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-vai-ru-bong-2.jpg"
+            ],
+            "description": "Áo sơ mi vải rũ bóng dáng relaxed fit. Cổ ve nhọn khoét chữ K, cộc tay. Cài phía trước bằng hàng khuy cài.",
+            "material": "100% vải pôliexte",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Giặt khô với tetrachloroethylene. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 5,
+            "name": "ÁO SƠ MI DENIM CÓ TÚI",
+            "price": "1.599.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-denim-co-tui-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-denim-co-tui-2.jpg"
+            ],
+            "description": "Áo sơ mi dáng relaxed fit, chất liệu vải denim sợi cotton không giặt. Điều này khiến sản phẩm hơi cứng dáng trong những lần mặc đầu tiên, tình trạng này sẽ giảm dần đi theo thời gian sử dụng.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 40ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Có thể sử dụng máy sấy ở nhiệt độ thấp.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 6,
+            "name": "ÁO SƠ MI DENIM WESTERN",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-denim-western-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-denim-western-2.jpg"
+            ],
+            "description": "Áo sơ mi vải denim sợi cotton, dáng regular fit. Cổ ve lật, dài tay, cổ tay bo và cài khuy. Cài khuy bấm.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 40ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 150ºC. Giặt khô với tetrachloroethylene. Có thể sử dụng máy sấy ở nhiệt độ thấp.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 7,
+            "name": "ÁO SƠ MI VẢI DỆT CHAMBRAY",
+            "price": "1.799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-vai-det-chambray-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-vai-det-chambray-2.jpg"
+            ],
+            "description": "Áo sơ mi dáng regular fit, chất liệu vải cotton nhẹ. Cổ ve lật, dài tay, cổ tay bo và cài khuy. Kiểu bạc màu. Cài phía trước bằng hàng khuy cài.",
+            "material": " 100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 40ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 200ºC. Giặt khô với tetrachloroethylene. Có thể sử dụng máy sấy ở nhiệt độ thấp.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 8,
+            "name": "ÁO SƠ MI IN HỌA TIẾT KHÁC MÀU",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-in-hoa-tiet-khac-mau-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-in-hoa-tiet-khac-mau-2.jpg"
+            ],
+            "description": "Áo sơ mi vải rũ dáng suông. Cổ ve lật, cộc tay. Sau lưng in họa tiết khác màu. Cài phía trước bằng hàng khuy cài.",
+            "material": "100% vải pôliexte",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 9,
+            "name": "ÁO SƠ MI CÓ CÁC MIẾNG ĐÁP KHÁC MÀU",
+            "price": "1.599.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-co-cac-mieng-dap-khac-mau-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-co-cac-mieng-dap-khac-mau-2.jpg"
+            ],
+            "description": "Áo sơ mi vải cotton, dáng relaxed fit. Cổ ve nhọn khoét chữ K, cộc tay. Phối các miếng đáp bằng vải sần khác màu. Gấu xẻ hai bên. Cài khuy phía trước.",
+            "material": "100% vải cotton, 86% vải cotton, 14% vải lanh, 100% vải pôliexte (thêu)",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Có thể sử dụng máy sấy ở nhiệt độ thấp. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 10,
+            "name": "ÁO SƠ MI CO GIÃN HỌA TIẾT TRỪU TƯỢNG",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-co-gian-hoa-tiet-truu-tuong-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-so-mi/ao-so-mi-co-gian-hoa-tiet-truu-tuong-2.jpg"
+            ],
+            "description": "Áo sơ mi chất liệu vải giúp giảm tối đa nhu cầu là ủi sau khi giặt. Cổ ve nhọn khoét chữ K, cộc tay. Gấu xẻ hai bên. Cài phía trước bằng hàng khuy cài.",
+            "material": " 85% vải poliamit, 15% elastane",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 1
+        },
+        {
+            "_id": 11,
+            "name": "ÁO POLO DỆT SỢI DỌC MÀU TRẮNG NGÀ",
+            "price": "999.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-ice-white-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-ice-white-2.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-ice-white-3.jpg"
+            ],
+            "description": "Áo polo dáng regular fit. Cổ ve lật, xẻ trước ngực. Cộc tay. Gấu bo vải gân.",
+            "material": "100% vải cotton, 99% vải cotton, 1% elastane (vải phụ)",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 12,
+            "name": "ÁO POLO DỆT SỢI DỌC MÀU ĐEN",
+            "price": "999.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-black-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-black-2.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-black-3.jpg"
+            ],
+            "description": "Áo polo dáng regular fit. Cổ ve lật, xẻ trước ngực. Cộc tay. Gấu bo vải gân.",
+            "material": "100% vải cotton, 99% vải cotton, 1% elastane (vải phụ)",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 13,
+            "name": "ÁO POLO DỆT SỢI DỌC MÀU VÀNG MÙ TẠT",
+            "price": "999.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-mustard-yellow-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-mustard-yellow-2.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-soi-doc-mustard-yellow-3.jpg"
+            ],
+            "description": "Áo polo dáng regular fit. Cổ ve lật, xẻ trước ngực. Cộc tay. Gấu bo vải gân.",
+            "material": "100% vải cotton, 99% vải cotton, 1% elastane (vải phụ)",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 14,
+            "name": "ÁO POLO DỆT KIM BO VIỀN GÂN MÀU TRẮNG NGÀ",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-kim-bo-vien-gan-ice-white-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-kim-bo-vien-gan-ice-white-2.jpg"
+            ],
+            "description": "Áo polo vải cotton dệt kim, dáng regular fit. Cổ ve lật, cài khuy phía trước, cộc tay.  Bo viền bằng vải gân.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy. Lộn trái khi giặt. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 15,
+            "name": "ÁO POLO DỆT KIM BO VIỀN GÂN MÀU XANH NƯỚC BIỂN",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-kim-bo-vien-gan-navy-blue-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-kim-bo-vien-gan-navy-blue-2.jpg"
+            ],
+            "description": "Áo polo vải cotton dệt kim, dáng regular fit. Cổ ve lật, cài khuy phía trước, cộc tay.  Bo viền bằng vải gân.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy. Lộn trái khi giặt. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 16,
+            "name": "ÁO POLO DỆT KIM BO VIỀN GÂN MÀU NÂU",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-kim-bo-vien-gan-brown-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-kim-bo-vien-gan-brown-2.jpg"
+            ],
+            "description": "Áo polo vải cotton dệt kim, dáng regular fit. Cổ ve lật, cài khuy phía trước, cộc tay.  Bo viền bằng vải gân.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy. Lộn trái khi giặt. Giặt riêng.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 17,
+            "name": "ÁO POLO KẺ NGANG TAY HIỆU ỨNG HAI LỚP",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-ke-ngang-tay-hieu-ung-hai-lop-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-ke-ngang-tay-hieu-ung-hai-lop-2.jpg"
+            ],
+            "description": "Áo polo dáng relaxed fit. Cổ ve lật, cài khuy phía trước. Tay hiệu ứng hai lớp, phối vải khác màu. Gấu xẻ hai bên. Kiểu bạc màu.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 18,
+            "name": "ÁO POLO KẺ VẢI PIQUÉ",
+            "price": "1.099.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-ke-vai-pique-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-ke-vai-pique-2.jpg"
+            ],
+            "description": "Áo polo dáng relaxed fit, chất liệu vải dệt kiểu piqué. Cổ ve lật, có hàng khuy cài phía trước. Cộc tay.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 19,
+            "name": "ÁO POLO DỆT JACQUARD HỌA TIẾT KẺ SỌC",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-jacquard-hoa-tiet-ke-soc-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-det-jacquard-hoa-tiet-ke-soc-2.jpg"
+            ],
+            "description": "Áo polo dáng relaxed fit. Cổ ve lật, có hàng khuy cài phía trước. Cộc tay.",
+            "material": "65% vải pôliexte, 35% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 20,
+            "name": "ÁO POLO KẺ NGANG",
+            "price": "1.599.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-ke-ngang-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-polo/ao-polo-ke-ngang-2.jpg"
+            ],
+            "description": "Áo polo dáng relaxed fit. Cổ ve lật, có khuy cài phía trước. Dài tay, bo cổ tay bằng vải gân. Gấu xẻ hai bên.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 2
+        },
+        {
+            "_id": 21,
+            "name": "ÁO PHÔNG HỌA TIẾT CHỮ",
+            "price": "799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-hoa-tiet-chu-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-hoa-tiet-chu-2.jpg"
+            ],
+            "description": "Áo phông dáng relaxed fit. Cổ tròn, cộc tay. In họa tiết chữ khác màu ở phía trước và sau lưng.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 22,
+            "name": "ÁO PHÔNG IN HỌA TIẾT KHÁC MÀU",
+            "price": "799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-in-hoa-tiet-khac-mau-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-in-hoa-tiet-khac-mau-2.jpg"
+            ],
+            "description": "Áo phông dáng relaxed fit. Cổ tròn, cộc tay. In họa tiết khác màu phía trước và sau lưng.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 23,
+            "name": "ÁO PHÔNG CƠ BẢN VẢI DỆT INTERLOCK",
+            "price": "799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-co-ban-interlock-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-co-ban-interlock-2.jpg"
+            ],
+            "description": "Áo phông vải cotton co giãn, dáng regular fit. Cổ tròn, cộc tay.",
+            "material": "94% vải cotton, 6% elastane",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 24,
+            "name": "ÁO PHÔNG BÓNG ĐÁ PHONG CÁCH RETRO",
+            "price": "1.099.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-bong-da-retro-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-bong-da-retro-2.jpg"
+            ],
+            "description": "Áo phông dáng relaxed fit, phối vải. Cổ tròn, tay lỡ. In họa tiết khác màu phía trước và sau lưng.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 25,
+            "name": "ÁO PHÔNG DỆT KIM IN HỌA TIẾT",
+            "price": "1.099.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-det-kim-hoa-tiet-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-det-kim-hoa-tiet-2.jpg"
+            ],
+            "description": "Áo phông vải cotton dệt kim, dáng boxy fit. Cổ tròn, cộc tay. In họa tiết khác màu phía trước. Kiểu bạc màu. Viền cắt lệch.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 26,
+            "name": "ÁO PHÔNG DỆT KIM HỌA TIẾT KIỂU PHUN SƠN",
+            "price": "1.099.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-det-kim-phun-son-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-det-kim-phun-son-2.jpg"
+            ],
+            "description": "Áo phông vải dệt kim sợi cotton, dáng relaxed fit. Cổ tròn, cộc tay. Toàn thân in họa tiết kiểu phun sơn. Viền cắt lệch.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 27,
+            "name": "ÁO PHÔNG VẢI BẠC MÀU DỆT KIM CÀI KHUY",
+            "price": "1.299.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-vai-bac-mau-cai-khuy-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-vai-bac-mau-cai-khuy-2.jpg"
+            ],
+            "description": "Áo phông vải dệt kim sợi cotton, dáng relaxed fit. Cổ tròn có hàng khuy cài phía trước, cộc tay. Kiểu bạc màu. Viền lật, kiểu lệch.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 28,
+            "name": "ÁO PHÔNG HỌA TIẾT GIÀY MOCCASIN",
+            "price": "799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-hoa-tiet-moccasin-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-hoa-tiet-moccasin-2.jpg"
+            ],
+            "description": "Áo phông dáng relaxed fit. Cổ tròn, cộc tay. Phía trước in họa tiết khác màu.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        },
+        {
+            "_id": 29,
+            "name": "ÁO PHÔNG HỌA TIẾT CHỮ GRAFFITI",
+            "price": "799.000 VND",
+            "images": [
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-hoa-tiet-graffiti-1.jpg",
+                "https://s3.cloudfly.vn/thread-line-product-images/Ao-phong/ao-phong-hoa-tiet-graffiti-2.jpg"
+            ],
+            "description": "Áo phông dáng relaxed fit. Cổ tròn, cộc tay. In chữ khác màu ở phía trước và sau lưng.",
+            "material": "100% vải cotton",
+            "care_instructions": "Giặt máy ở nhiệt độ tối đa 30ºC, vắt ở tốc độ thấp. Không sử dụng nước tẩy / thuốc tẩy. Giặt ở nhiệt độ tối đa 110ºC. Không giặt khô. Không sử dụng máy sấy.",
+            "sizes": ["S", "M", "L", "XL"],
+            "dimensions": "Chăm sóc đúng cách quần áo của mình tức là bạn đang bảo vệ môi trường. Giặt ở nhiệt độ thấp và sử dụng các chế độ vắt nhẹ nhàng sẽ có lợi hơn cho quần áo, giúp duy trì màu sắc, hình dạng và cấu trúc của vải. Đồng thời giúp làm giảm lượng năng lượng tiêu thụ trong các quá trình chăm sóc.",
+            "cid": 3
+        }
+    ]
+}
