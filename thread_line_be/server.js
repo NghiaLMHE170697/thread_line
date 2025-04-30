@@ -40,8 +40,7 @@ app.use(
         origin: function (origin, callback) {
             const allowedOrigins = [
                 process.env.CLIENT_URL,
-                'http://localhost:3000',
-                'http://localhost:3001'
+                'https://threadline-drab.vercel.app/'
             ];
             if (!origin || allowedOrigins.indexOf(origin) !== -1) {
                 callback(null, true);
@@ -49,7 +48,7 @@ app.use(
                 callback(new Error('Not allowed by CORS'));
             }
         },
-        methods: ["GET", "POST", "PUT", "DELETE"],
+        methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type", "Authorization"],
         credentials: true
     })
