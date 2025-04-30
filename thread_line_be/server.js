@@ -38,9 +38,10 @@ app.use(
 app.use(
     cors({
         origin: function (origin, callback) {
+            // Define allowed origins
             const allowedOrigins = [
-                process.env.CLIENT_URL,
-                'https://threadline-drab.vercel.app'
+                'https://threadline-drab.vercel.app',
+                'http://localhost:3000'
             ];
             
             // Allow requests with no origin (like mobile apps or curl requests)
@@ -48,15 +49,23 @@ app.use(
                 return callback(null, true);
             }
 
-            // Normalize URLs by removing trailing slashes
-            const normalizedOrigin = origin.replace(/\/$/, '');
-            const normalizedAllowedOrigins = allowedOrigins.map(url => url.replace(/\/$/, ''));
+            try {
+                // Normalize URLs by removing trailing slashes
+                const normalizedOrigin = origin.replace(/\/$/, '');
+                const normalizedAllowedOrigins = allowedOrigins
+                    .filter(url => url) // Filter out any undefined/null values
+                    .map(url => url.replace(/\/$/, ''));
 
-            if (normalizedAllowedOrigins.includes(normalizedOrigin)) {
-                callback(null, true);
-            } else {
-                console.log('CORS blocked for origin:', origin);
-                callback(new Error('Not allowed by CORS'));
+                if (normalizedAllowedOrigins.includes(normalizedOrigin)) {
+                    callback(null, true);
+                } else {
+                    console.log('CORS blocked for origin:', origin);
+                    console.log('Allowed origins:', normalizedAllowedOrigins);
+                    callback(new Error('Not allowed by CORS'));
+                }
+            } catch (error) {
+                console.error('CORS error:', error);
+                callback(new Error('CORS configuration error'));
             }
         },
         credentials: true,
