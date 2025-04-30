@@ -46,7 +46,7 @@ const Chatbot = () => {
         setIsLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:9999/api/gemini/chatbot', {
+            const response = await axios.post('https://thread-line-server.vercel.app/api/gemini/chatbot', {
                 message,
             });
 
