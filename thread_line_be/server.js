@@ -120,9 +120,18 @@ app.use((err, req, res, next) => {
 const HOST = process.env.HOST_NAME || "localhost";
 const PORT = process.env.PORT || 9999;
 
-app.listen(PORT, HOST, () => {
-    console.log(`🚀 Server running at: http://${HOST}:${PORT}`);
-    db.connectDB();
-});
+const startServer = async () => {
+    try {
+        await db.connectDB();
+        app.listen(PORT, HOST, () => {
+            console.log(`🚀 Server running at: http://${HOST}:${PORT}`);
+        });
+    } catch (error) {
+        console.error('Failed to start server:', error);
+        process.exit(1);
+    }
+};
+
+startServer();
 
 module.exports = app;
