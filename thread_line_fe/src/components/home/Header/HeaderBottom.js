@@ -8,6 +8,14 @@ import { useSelector } from "react-redux";
 import { paginationItems } from "../../../constants";
 import data from "../../../data/database.json"
 
+const removeAccents = (str) => {
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[đĐ]/g, 'd')
+    .toLowerCase();
+};
+
 const HeaderBottom = () => {
   const products = useSelector((state) => state.orebiReducer.products);
   const [show, setShow] = useState(false);
@@ -33,9 +41,11 @@ const HeaderBottom = () => {
   };
 
   useEffect(() => {
-    const filtered = data.products.filter((item) =>
-      item.name.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    const filtered = data.products.filter((item) => {
+      const itemName = removeAccents(item.name);
+      const query = removeAccents(searchQuery);
+      return itemName.includes(query);
+    });
     setFilteredProducts(filtered);
   }, [searchQuery]);
 
@@ -87,7 +97,7 @@ const HeaderBottom = () => {
                       key={item._id}
                       className="max-w-[600px] h-28 bg-gray-100 mb-3 flex items-center gap-3"
                     >
-                      <img className="w-24" src={item.image} alt="productImg" />
+                      <img className="w-24" src={item.images[0]} alt="productImg" />
                       <div className="flex flex-col gap-1">
                         <p className="font-semibold text-lg">
                           {item.name}
@@ -95,7 +105,7 @@ const HeaderBottom = () => {
                         <p className="text-sm">
                           Giá:{" "}
                           <span className="text-primeColor font-semibold">
-                            {new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(item.price)}
+                            {item.price}
                           </span>
                         </p>
                       </div>

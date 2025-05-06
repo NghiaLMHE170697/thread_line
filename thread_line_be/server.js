@@ -6,6 +6,7 @@ const helmet = require("helmet");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
+const db = require("./models");
 require("dotenv").config();
 // Thêm import cho chức năng nhắc nhở
 
@@ -15,6 +16,7 @@ const app = express();
 // Import Routes
 const {
     geminiRouter,
+    authRouter,
 } = require("./routes");
 
 // Middleware
@@ -96,7 +98,7 @@ app.get("/", (req, res) => {
 
 // 🔗 Routing
 app.use("/api/gemini", geminiRouter);
-
+app.use("/api/auth", authRouter);
 
 // ❌ Xử lý lỗi 404 (Route không tồn tại)
 app.use((req, res, next) => {
@@ -120,6 +122,7 @@ const PORT = process.env.PORT || 9999;
 
 app.listen(PORT, HOST, () => {
     console.log(`🚀 Server running at: http://${HOST}:${PORT}`);
+    db.connectDB();
 });
 
 module.exports = app;

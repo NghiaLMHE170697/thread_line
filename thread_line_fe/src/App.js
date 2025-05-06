@@ -1,3 +1,4 @@
+import React from "react";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,6 +15,7 @@ import SpecialCase from "./components/SpecialCase/SpecialCase";
 import About from "./pages/About/About";
 import SignIn from "./pages/Account/SignIn";
 import SignUp from "./pages/Account/SignUp";
+import VerifyEmail from "./pages/Account/VerifyEmail";
 import Cart from "./pages/Cart/Cart";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
@@ -23,8 +25,11 @@ import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
 import Chatbot from "./components/Chatbot/Chatbot";
+import { useLocation } from "react-router-dom";
 
 const Layout = () => {
+  const location = useLocation();
+  const hideChatbot = location.pathname === "/signin" || location.pathname === "/signup";
   return (
     <div className="w-full overflow-hidden">
       <Header />
@@ -34,6 +39,7 @@ const Layout = () => {
       <Outlet />
       <Footer />
       <FooterBottom />
+      {!hideChatbot && <Chatbot />}
     </div>
   );
 };
@@ -55,6 +61,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="/signup" element={<SignUp />}></Route>
       <Route path="/signin" element={<SignIn />}></Route>
+      <Route path="/verify-email" element={<VerifyEmail />}></Route>
     </Route>
   )
 );
@@ -63,7 +70,6 @@ function App() {
   return (
     <div className="font-bodyFont">
       <RouterProvider router={router} />
-      <Chatbot />
     </div>
   );
 }
