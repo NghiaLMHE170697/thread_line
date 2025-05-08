@@ -19,6 +19,29 @@ const Chatbot = () => {
         "Gợi ý giúp tôi một set đồ đi làm thật thanh lịch.",
     ];
 
+    const formatResponse = (text) => {
+        const lines = text.split('\n').filter(line => line.trim() !== '');
+
+        const hasBullets = lines.some(line => line.trim().startsWith('-'));
+        if (hasBullets) {
+            const intro = lines.find(line => !line.trim().startsWith('-'));
+            const bullets = lines.filter(line => line.trim().startsWith('-'));
+
+            return (
+                <div>
+                    {intro && <p>{intro}</p>}
+                    <ul>
+                        {bullets.map(line => (
+                            <li>{line.replace(/^- /, '- ')}</li>
+                        ))}
+                    </ul>
+                </div>
+            )
+        };
+
+        return <p style={{ whiteSpace: 'pre-line' }}>{text}</p>
+    }
+
     const toggleChatbot = () => {
         setIsOpen(!isOpen);
     };
@@ -92,10 +115,9 @@ const Chatbot = () => {
                     <div className="chatbot-messages">
                         {messages.map((msg) => (
                             <div
-                                key={`${Date.now()}-${Math.random()}`}
                                 className={`message ${msg.sender}`}
                             >
-                                {msg.text}
+                                {msg.sender === 'bot' ? formatResponse(msg.text) : msg.text}
                             </div>
                         ))}
                         {isLoading && (
